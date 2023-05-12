@@ -100,7 +100,7 @@ const onFinish = (values: any) => {
             </div>
             <p class="text-primary-90 my-[6px] text-base font-medium text-left">Let's login</p>
             <p class="text-black-40 mt-[6px] mb-[12px] text-sm font-light text-left">
-              Masukkan username & password kamu.
+              Input your username & password below.
             </p>
             <AntForm
               :model="loginForm"
@@ -148,7 +148,7 @@ const onFinish = (values: any) => {
                 html-type="submit"
                 className="bg-primary-60 hover:shadow-light text-base w-full h-[48px] rounded-[8px] text-white-00 font-rubik font-medium mt-[24px] lg:w-full"
               >
-                Masuk
+                Login
               </button>
             </AntForm>
           </div>
